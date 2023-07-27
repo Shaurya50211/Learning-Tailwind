@@ -8,19 +8,19 @@
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 </head>
 <body class="bg-gray-100">
-    <div class="container">
-        <div class="left">
-            <img src="logo.svg" alt="logo" class="">
-            <p>Connect with friends and the world around you on Facebook.</p>
+    <div class="container mt-48 flex mx-auto items-center justify-center space-x-44">
+        <div class="left w-1/2 mb-10">
+            <img src="logo.svg" alt="logo" class="w-80">
+            <p class="text-3xl mx-6 ">Connect with friends and the world around you on Facebook.</p>
         </div>
 
-        <div class="right">
-            <input type="email" placeholder="Email or phone number" id="">
-            <input type="password" placeholder="Password" id="">
-            <button type="submit">Log In</button>
-            <span>Forgot password?</span>
-            <hr>
-            <button type="submit">Create new account</button>
+        <div class="right flex flex-col bg-white p-8 rounded-lg w-[40%] shadow-lg">
+            <input class="px-4 h-12 my-2 border border-1 border-gray-300 rounded-lg" type="email" placeholder="Email or phone number" id="">
+            <input class="px-4 h-12 my-2 border border-1 border-gray-300 rounded-lg" type="password" placeholder="Password" id="">
+            <button class="bg-blue-600 hover:bg-blue-700 transition-all text-white font-semibold my-2 py-3 text-xl rounded-md">Log In</button>
+            <span class="text-blue-500 font-medium text-sm my-2 hover:underline cursor-pointer mx-auto">Forgot password?</span>
+            <hr class="my-2">
+            <button class="bg-green-500 hover:bg-green-600 transition-all w-fit text-white font-semibold py-3 px-4 text-lg mx-auto rounded-md">Create new account</button>
         </div>
     </div>
 </body>
